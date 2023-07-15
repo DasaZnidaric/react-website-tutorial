@@ -1,39 +1,57 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import AlenkaTuricnik from "../providers/AlenkaTuricnik.webp";
+import EvaSever from "../providers/EvaSever.jpg";
+import LinaKlansek from "../providers/LinaKlansek.jpg";
+import MatejaLajh from "../providers/MatejaLajh.jpg";
+import MojcaBajzelj from "../providers/MojcaBajzelj.jpg";
+import MojcaGubina from "../providers/MojcaGubina.jpg";
+import SanjaGucek from "../providers/SanjaGucek.jpg";
+import UlaGojo from "../providers/UlaGojo.jpeg";
+import ZmagoSvajncerVrecko from "../providers/ZmagoSvajncerVrecko.webp";
 
 export const MenuList = [
   {
-    name: "Pepperoni Pizza",
-    image: Pepperoni,
+    name: "Alenka Turicnik",
+    image: AlenkaTuricnik,
     price: 15.99,
   },
   {
-    name: "Margherita Pizza",
-    image: Margherita,
+    name: "Eva Sever",
+    image: EvaSever,
     price: 11.99,
   },
   {
-    name: "PedroTech Special Pizza",
-    image: PedroTechSpecial,
+    name: "Lina Klansek",
+    image: LinaKlansek,
     price: 256.53,
   },
   {
-    name: "Vegan Pizza",
-    image: Vegan,
+    name: "Mateja Lajh",
+    image: MatejaLajh,
     price: 17.99,
   },
   {
-    name: "Pineapple Pizza",
-    image: Pineapple,
+    name: "Mojca Bajzelj",
+    image: MojcaBajzelj,
     price: 4.99,
   },
   {
-    name: "Very Expensive Pizza",
-    image: Expensive,
+    name: "Mojca Gubina",
+    image: MojcaGubina,
+    price: 1997.99,
+  },
+  {
+    name: "Sanja Gucek",
+    image: SanjaGucek,
+    price: 17.99,
+  },
+  {
+    name: "Ula Gojo",
+    image: UlaGojo,
+    price: 4.99,
+  },
+  {
+    name: "Zmago Svajncer Vrecko",
+    image: ZmagoSvajncerVrecko,
     price: 1997.99,
   },
 ];
