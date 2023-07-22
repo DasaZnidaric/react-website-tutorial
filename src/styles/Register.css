@@ -1,0 +1,54 @@
+.reg {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 2px solid rgba(61, 60, 60, 0.659);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 10px 6px #888888;
+}
+
+.reg h1 {
+  text-align: center;
+}
+
+.reg p {
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: inline;
+  position: relative;
+  padding-left: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label:before {
+  background-color: #4c5062;
+  border-color: #ccc;
+}
+
+.g {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+}

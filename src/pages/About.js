@@ -2,9 +2,6 @@ import React from "react";
 import AboutBack from "../assets/aboutbackground.png";
 import "../styles/About.css";
 function About() {
-
-  
-
   return (
     <div className="about">
       <div

@@ -9,7 +9,7 @@ function Home() {
       <div className="headerContainer">
         <h1> Talk To You </h1>
         <p>Z lahkoto poiščite najboljšo pomoč</p>
-        <Link to="/menu">
+        <Link to="/provider">
           <button> Klikni tukaj </button>
         </Link>
       </div>
